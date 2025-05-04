@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
+app.get('/app', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
