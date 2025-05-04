@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        button { padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Hello, I'm Jibon!</h1>
+    <p>Click the button to see a message:</p>
+    <button onclick="showMessage()">Click me</button>
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').innerText = "Thanks for visiting my portfolio!";
+        }
+    </script>
+</body>
+</html>
